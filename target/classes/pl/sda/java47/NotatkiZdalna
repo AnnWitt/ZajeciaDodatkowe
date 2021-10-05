@@ -1,0 +1,18 @@
+hermetyzacja
+
+private - dostep w ramach
+ctrl D na metodzie przenosi do mniej
+
+typ widocznosc pakietowy, przy konstr tylko nazwa bez public/pruvate, przy getterach setterach
+jezeli nie ma to domyslna package private - tj
+
+        System.out.println("czy zywy " + (player.areYouAlive()? "Tak" : "Nie")); //odpowiednik tego ponizej
+/*        if (player.areYouAlive()) {
+            System.out.println("zywy? TAK");
+        } else {
+            System.out.println("zywy? Nie");
+        }*/
+
+        jesli dostep pakietowy to w podpakietach nie będzie dostępny
+
+        unikac komunikacji dwukierunkowej miedzy klasami
